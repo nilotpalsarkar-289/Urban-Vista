@@ -52,7 +52,7 @@ Contributions are welcome!
 ---
 
 ### 🌍 Connect with Us  
-📧 Email: your.email@example.com  
+📧 Email: nilotpalsarkar289@gmail.com 
 🔗 GitHub: [MyGitHubProfile](https://github.com/nilotpalsarkar-289)  
 
 ---

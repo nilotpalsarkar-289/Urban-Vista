@@ -1,54 +1,60 @@
-Urban Traffic Vista
+# 🚦 Urban Traffic Vista
 
-A smart web application for real-time traffic insights, shortest route optimization, anomaly detection, and license plate recognition using AI & ML.
+**Urban Traffic Vista** is a smart web application designed to enhance urban traffic management using advanced machine learning models. It offers real-time congestion prediction, shortest path recommendations, anomaly detection, and vehicle number plate recognition. 
 
-🚀 Features
+---
 
-1️⃣ Backend (ML Model Deployment)
+## 🌟 Features
 
-Fetches traffic data, predicts congestion, and optimizes routes.
+### 1️⃣ Backend (ML Model Deployment)  
+- Fetches live traffic data, predicts congestion, optimizes routes, and serves results to the frontend.
+- **Frameworks:** Flask, REST API, Django  
+- **ML Deployment:** TensorFlow Serving, Flask API, AWS Lambda  
+- **Database:** PostgreSQL/MySQL, MongoDB/Firebase  
 
-Frameworks: Flask, REST API, Django
+### 2️⃣ Frontend (User Interaction)  
+- Interactive UI for real-time traffic display, route optimization, and congestion analysis.
+- **Tech Stack:** React.js, Angular, or Vue.js  
+- **Map Integration:** Google Maps API, Leaflet.js  
+- **Real-time Updates:** WebSockets, Firebase Realtime Database  
 
-ML Deployment: TensorFlow Serving, Flask API, AWS Lambda
+### 3️⃣ Traffic Guidelines & Helpline  
+- Provides essential traffic rules and emergency helpline numbers for assistance.
 
-Database: PostgreSQL/MySQL, MongoDB/Firebase
+### 4️⃣ Traffic Anomaly Detection  
+- Uses ML to predict accident severity based on reports, weather conditions, and infrastructure.
+- **Models Used:** Logistic Regression, Naïve Bayes, Random Forest, Decision Trees  
 
-2️⃣ Frontend (User Interaction)
+### 5️⃣ License Plate Recognition  
+- Detects vehicle number plates using a Flask-based web app with SSD-based TensorFlow model.
+- **OCR Engine:** EasyOCR for text extraction  
+- **Supported Formats:** PNG, JPG, JPEG (Recommended size: 800x600)  
+- **Tech Stack:** HTML, CSS, Python, Flask  
 
-Displays real-time traffic updates, optimized routes, and congestion levels.
+### 6️⃣ Smart Route Optimization  
+- Provides the shortest path between two locations using ML models.
+- **Models Used:** GRU, XGBoost, LSTM, SVM  
 
-Tech Stack: React.js, Angular, Vue.js
+```
+---
 
-Map Integration: Google Maps API, Leaflet.js
+## 📌 How It Works
+1. The user inputs source & destination.
+2. Backend fetches traffic data & ML models predict congestion.
+3. Optimized route is displayed on the frontend.
+4. Additional features include anomaly prediction, real-time updates, and license plate recognition.
 
-Real-time Updates: WebSockets, Firebase Realtime Database
+---
 
-3️⃣ Traffic Rules & Helpline
+## 🤝 Contributing
+Contributions are welcome!
 
-Provides traffic guidelines and emergency helpline numbers for assistance.
+---
 
-4️⃣ Traffic Anomaly Detection
+### 🌍 Connect with Us  
+📧 Email: your.email@example.com  
+🔗 GitHub: [MyGitHubProfile](https://github.com/nilotpalsarkar-289)  
 
-Predicts accident severity using ML models trained on accident reports, weather data, and infrastructure conditions.
+---
 
-Models Used: Logistic Regression, Naïve Bayes, Random Forest, Decision Trees
-
-5️⃣ License Plate Recognition
-
-Detects vehicle number plates using a Flask-based web app with SSD-based TensorFlow model and EasyOCR.
-
-Supported Formats: PNG, JPG, JPEG (recommended size: 800x600)
-
-Tech Stack: HTML, CSS, Python, Flask
-
-6️⃣ Shortest Path Optimization
-
-Finds the best route between two locations using ML models.
-
-Models Used: GRU, XGBoost, LSTM, SVM
-
-📧 Contact
-
-For queries, reach out via [nilotpalsarkar289@gmail.com].
-
+⚡ *Optimizing urban mobility with AI-driven insights!* 🚀

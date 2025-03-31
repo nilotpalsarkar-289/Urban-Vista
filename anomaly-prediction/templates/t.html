@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accident Severity Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 20px;
+        }
+        form {
+            background: white;
+            padding: 20px;
+            max-width: 400px;
+            margin: auto;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px #ccc;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background: #28a745;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            border-radius: 4px;
+        }
+        button:hover {
+            background: #218838;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Accident Severity Prediction</h2>
+
+    <form action="/predict" method="post">
+        <label>Day of the Week:</label>
+        <input type="number" name="Day" required>
+
+        <label>Light Conditions:</label>
+        <input type="number" name="Light" required>
+
+        <label>Sex of Driver:</label>
+        <input type="number" name="Temperature" required>
+
+        <label>Vehicle Type:</label>
+        <input type="number" name="Oxygen" required>
+
+        <label>Speed Limit:</label>
+        <input type="number" name="Humidity" required>
+
+        <label>Road Type:</label>
+        <input type="number" name="Road" required>
+
+        <label>Number of Passengers:</label>
+        <input type="number" name="Passengers" required>
+
+        <label>Special Conditions:</label>
+        <input type="number" name="Special" required>
+
+        <label>Pedestrian Crossing:</label>
+        <input type="number" name="Pedestrian_Crossing" required>
+
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if pred %}
+    <div class="result">
+        {{ pred }}
+    </div>
+    {% endif %}
+
+</body>
+</html>

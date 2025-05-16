@@ -33,7 +33,7 @@
 
 ### 6️⃣ Smart Route Optimization  
 - Provides the shortest path between two locations using ML models.
-- **Models Used:** GRU, XGBoost, LSTM, SVM  
+- **Models Used:** GRU, XGBoost, LSTM, SVM, ANN  
 
 ```
 ---

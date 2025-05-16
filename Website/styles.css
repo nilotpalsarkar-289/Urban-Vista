@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url('busy_road.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  color: white;
+  position: relative;
+}
+
+.content {
+  text-align: center;
+  padding-top: 15%;
+}
+
+/* Container for top buttons */
+.top-buttons {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+/* Common style for all top nav buttons */
+.top-buttons a {
+  padding: 10px 16px;
+  font-size: 16px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover effect */
+.top-buttons a:hover {
+  background-color: #f0f0f0;
+}
